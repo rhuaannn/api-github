@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500&family=Poppins:wght@200;400&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="js/main.js" defer></script>
+    <title>GitHub - Favorites</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>GitHub Favorites</h1>
+        <div class="search">
+          <label class="sr-only" for="input-search">Usuário do gitHub</label>
+          <input
+            id="input-search"
+            type="text"
+            placeholder="Usuário do gitHub"
+          />
+          <button>&plus;</button>
+        </div>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>Usuário</th>
+            <th>Repositórios</th>
+            <th>Seguidores</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="user">
+              <img
+                src="https://github.com/rhuaannn.png"
+                alt="imagem do github"
+              />
+              <a href="">
+                <p> </p>
+                <span></span>
+              </a>
+            </td>
+            <td class="repositories"></td>
+            <td class="followers"></td>
+            <td>
+              <button class="remove">&times;</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    
+  </body>
+</html>
